@@ -20,6 +20,9 @@ import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.world.World;
 import noah.matheu.MyItems.RubyGem;
 
+
+
+
 /**
  * @author kobrien
  *
@@ -33,6 +36,8 @@ public class EntityBlasterBolt extends EntityThrowable {
 	 */
 	public EntityBlasterBolt(World par1World) {
 		super(par1World);
+		
+		
 	}
 	/**
 	 * @param par1World
@@ -48,6 +53,7 @@ public class EntityBlasterBolt extends EntityThrowable {
 	 * @param arg1EntityLivingBase
 	 */
 	public EntityBlasterBolt(World par1World, EntityLivingBase arg1EntityLivingBase) {
+		
 		super(par1World, arg1EntityLivingBase);
 	}
 
@@ -65,11 +71,11 @@ public class EntityBlasterBolt extends EntityThrowable {
 	    {
 	        if (par1MovingObjectPosition.entityHit != null)
 	        {
-	            byte b0 = 1;
+	            byte b0 = 3;
 
 	            if (par1MovingObjectPosition.entityHit instanceof EntityBlaze)
 	            {
-	                b0 = 3;
+	                b0 = 9;
 	            }
 
 	            par1MovingObjectPosition.entityHit.attackEntityFrom(DamageSource.causeThrownDamage(this, this.getThrower()), (float)b0);

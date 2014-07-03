@@ -32,7 +32,7 @@ public class ItemBlasterRifle extends Item {
   public ItemBlasterRifle() {
     super();
     setCreativeTab(CreativeTabs.tabCombat);
-    setUnlocalizedName("blasterRifle");
+    setUnlocalizedName("snowsprayer");
   }
   
   public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer)
@@ -43,14 +43,7 @@ public class ItemBlasterRifle extends Item {
 	      {
 	          par2World.spawnEntityInWorld(new EntityBlasterBolt(par2World, par3EntityPlayer));
 	          
-	          par2World.spawnEntityInWorld(new EntityBlasterBolt(par2World, par3EntityPlayer));
-	          
-	          par2World.spawnEntityInWorld(new EntityBlasterBolt(par2World, par3EntityPlayer));
-	          
-	          par2World.spawnEntityInWorld(new EntityBlasterBolt(par2World, par3EntityPlayer));
-	          
-	          par2World.spawnEntityInWorld(new EntityBlasterBolt(par2World, par3EntityPlayer));
-	          
+	         
 	          
 	          
 	      }

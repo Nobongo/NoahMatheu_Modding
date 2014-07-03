@@ -19,7 +19,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
  * @author shooshosha
  * 
  */
-
 @Mod(modid = ForgeTutorial.ID, name = ForgeTutorial.NAME)
 public class ForgeTutorial {
   public static final String ID = "forgetutorial";
@@ -27,8 +26,8 @@ public class ForgeTutorial {
   
   @EventHandler
   public void load(FMLPreInitializationEvent event) {
-    Item blasterRifle = new ItemBlasterRifle();
-    GameRegistry.registerItem(blasterRifle, "Blaster Rifle");
+    Item snowsprayer = new ItemBlasterRifle();
+    GameRegistry.registerItem(snowsprayer, "Snow Sprayer");
   }
   
 }

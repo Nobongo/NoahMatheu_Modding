@@ -15,6 +15,8 @@ import cpw.mods.fml.common.registry.GameRegistry;
 //MyBlocksImpotrs
 
 
+
+
 import java.util.List;
 
 import net.minecraft.block.Block;
@@ -22,6 +24,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import cpw.mods.fml.relauncher.Side;
@@ -36,6 +39,7 @@ import noah.matheu.MyItems.ItemBlasterRifle;
 //MyItems Imports
 import noah.matheu.MyItems.RubyGem;
 import noah.matheu.MyItems.Rock;
+import noah.matheu.MyItems.SnowGrenade;
 import net.minecraft.item.ItemFood;
 import noah.matheu.MyItems.IceBlade;
 
@@ -43,6 +47,10 @@ import noah.matheu.MyItems.IceBlade;
 //my tools
 import net.minecraftforge.common.util.EnumHelper;
 import noah.matheu.MyItems.IceSword;
+import noah.matheu.armor.iceArmor;
+
+
+
 public class MyCode {
 	
 	//List Items Here #setupITEMS
@@ -52,6 +60,17 @@ public class MyCode {
 			//tools
 			public static Item IceSword;
 			public static Item.ToolMaterial ICE = EnumHelper.addToolMaterial("ICE", 2,1000,5.5F,1.5F,12);
+			
+			public static ArmorMaterial iceArmorMaterial = EnumHelper.addArmorMaterial("iceArmorMaterial",15, new int[]{3, 7, 5, 3}, 12);
+			public static int iceHelmetID;
+			public static int iceChestpieceID;
+			public static int icePantsID;
+			public static int iceShoesID;	
+			
+			public static Item iceHelmet =new iceArmor(iceArmorMaterial, iceHelmetID, 0).setUnlocalizedName("iceHelmet");
+			public static Item iceChestpiece =new iceArmor(iceArmorMaterial, iceChestpieceID, 1).setUnlocalizedName("iceChestpiece");
+			public static Item icePants =new iceArmor(iceArmorMaterial, icePantsID, 2).setUnlocalizedName("icePants");
+			public static Item iceShoes =new iceArmor(iceArmorMaterial, iceShoesID, 3).setUnlocalizedName("iceShoes");
 			
 			
 			
@@ -97,6 +116,7 @@ public class MyCode {
 		
 	}
 	public static void MyRecipes(){
+		
 		GameRegistry.addShapelessRecipe( new ItemStack(Blocks.fire),  new Object[] {new ItemStack(Items.flint_and_steel)});
 		GameRegistry.addShapelessRecipe( new ItemStack(rubyGem),  new Object[] {new ItemStack(rubyOre)});
 		
@@ -177,7 +197,14 @@ public class MyCode {
 		GameRegistry.registerItem(Rock,"Rock");
 		GameRegistry.registerItem(IceSword,"IceSword");
 		GameRegistry.registerItem(iceblade,"IceBlade");
+		GameRegistry.registerItem(iceHelmet,"IceHelmet");
+		GameRegistry.registerItem(iceChestpiece,"IceChestpiece");
+		GameRegistry.registerItem(icePants,"IcePants");
+		GameRegistry.registerItem(iceShoes,"IceShoes");
+		
+		   Item snowgrenade = new SnowGrenade();
+		   GameRegistry.registerItem(snowgrenade, "Snow Grenade");
 		
 	
-	}
-}
+
+}}

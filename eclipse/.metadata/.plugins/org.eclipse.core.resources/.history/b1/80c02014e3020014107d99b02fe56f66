@@ -1,0 +1,13 @@
+package noah.matheu.armor;
+
+import net.minecraft.item.ItemArmor;
+
+public class iceArmor extends ItemArmor {
+	
+	public iceArmor(ArmorMaterial material, int id, int placment) {
+		super(material, id, placment);
+	}
+	
+	
+
+}
