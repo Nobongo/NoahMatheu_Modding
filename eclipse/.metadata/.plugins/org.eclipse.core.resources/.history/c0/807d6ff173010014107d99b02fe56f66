@@ -1,0 +1,7 @@
+package noah.matheu.MyItems;
+
+import net.minecraft.item.Item;
+
+public class FreezeRay  extends Item {
+
+}

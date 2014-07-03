@@ -1,0 +1,15 @@
+package noah.matheu.MyItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class Rifle extends Item
+{
+  public Rifle()
+  {
+    super();
+    setCreativeTab(CreativeTabs.tabCombat);
+    setUnlocalizedName("blasterRifle");
+  }
+}
+

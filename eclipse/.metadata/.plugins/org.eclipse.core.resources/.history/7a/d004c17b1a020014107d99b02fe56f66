@@ -1,0 +1,12 @@
+package noah.matheu.MyItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class IceBlade  extends Item {
+	public IceBlade(){
+	setMaxStackSize(64);
+	setCreativeTab(CreativeTabs.tabMaterials);
+	setUnlocalizedName("iceblade");
+}
+	}

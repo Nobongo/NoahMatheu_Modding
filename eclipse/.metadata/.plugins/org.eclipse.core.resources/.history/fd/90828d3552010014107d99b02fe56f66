@@ -1,0 +1,115 @@
+package noah.matheu;
+
+//Recipes
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Items;
+import net.minecraft.init.Blocks;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+//MyBlocksImpotrs
+
+import java.util.List;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.IIcon;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+//MyBlocks
+import noah.matheu.MyBlocks.RubyOre;
+
+public class MyCode {
+	
+	//ListBlocks here #setupBLOCK
+	public static Block rubyOre;
+  
+	public static void MyBlocks(){	
+		
+		//Blocks #setupBLOCK
+//RubyOre
+		rubyOre = new RubyOre (Material.ground)
+		.setHardness(0.9F)
+		.setStepSound(Block.soundTypeGravel)
+		.setBlockName("rubyOre")
+		.setCreativeTab(CreativeTabs.tabBlock)
+		.setBlockTextureName("redstone_ore");
+		
+		
+		//Harvest Level 
+
+		//Register #setupBLOCK
+	//RubyOre
+		GameRegistry.registerBlock(rubyOre,"RubyOre");
+
+
+		
+	}
+	public static void MyRecipes(){
+		GameRegistry.addShapelessRecipe( new ItemStack(Blocks.fire),  new Object[] {new ItemStack(Items.flint_and_steel)});
+		
+		GameRegistry.addRecipe(new ItemStack(Blocks.lit_furnace, 2), new Object[]{
+			" A ",
+			" B ",
+			"   ",
+			'A', Blocks.fire, 'B', Blocks.furnace,
+		});
+			
+			
+		GameRegistry.addRecipe(new ItemStack(Blocks.web, 5), new Object[]{
+			"A A",
+			" A ",
+			"A A",
+			'A', Items.string,
+		});
+			
+		GameRegistry.addRecipe(new ItemStack(Blocks.ice, 16), new Object[]{
+			"ACA",
+			"DBD",
+			"ACA",
+			'A', Blocks.snow, 'B', Items.water_bucket, 'C', Items.snowball, 'D', Items.glass_bottle,
+		});
+		GameRegistry.addRecipe(new ItemStack(Blocks.dragon_egg, 1), new Object[]{
+			"ACA",
+			"DBD",
+			"ACA",
+			'A', Items.diamond, 'B', Blocks.beacon, 'C', Items.redstone, 'D', Blocks.stone_button,
+		});
+		GameRegistry.addRecipe(new ItemStack(Blocks.farmland, 1), new Object[]{
+			"ADA",
+			"BBB",
+			"CCC",
+			'A', Items.wooden_hoe, 'B', Blocks.dirt, 'C', Items.water_bucket, 'D', Items.stone_hoe,
+		});
+		
+		ItemStack SpawnEgg = new ItemStack(Items.spawn_egg,1);
+		
+		GameRegistry.addSmelting(Blocks.ice, new ItemStack(Blocks.water, 1), 3F);
+		
+		GameRegistry.addSmelting(Items.spawn_egg, new ItemStack(Items.gunpowder, 1, 50), 3F);
+		
+		
+		
+		
+		
+		ItemStack newEnchantment = new ItemStack(Items.stick,1);
+		newEnchantment.addEnchantment(Enchantment.sharpness, 127);
+		newEnchantment.addEnchantment(Enchantment.looting, 127);
+		GameRegistry.addSmelting(Items.diamond, newEnchantment, 3F);
+		
+
+
+
+
+
+	}
+	public static void MyItems(){
+		
+	}
+}
