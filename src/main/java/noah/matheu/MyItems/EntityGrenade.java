@@ -30,7 +30,7 @@ import noah.matheu.MyItems.RubyGem;
 
 
 public class EntityGrenade extends EntityThrowable {
-	private double explosionRadius = 5.0F;
+	private double explosionRadius = 3.0F;
 	/**
 	 * @param par1World where the entity will spawn
 	 */

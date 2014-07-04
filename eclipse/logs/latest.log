@@ -1,41 +1,41 @@
-[16:32:12] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:32:12] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[16:32:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[16:32:12] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
-[16:32:12] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-[16:32:12] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[16:32:12] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:32:12] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:32:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:32:12] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:32:12] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:32:12] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[16:32:13] [main/ERROR]: The minecraft jar file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[16:32:13] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[16:32:13] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[16:32:13] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[16:32:13] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:32:13] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[16:32:13] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:32:14] [main/INFO]: Setting user: Player805
-[16:32:15] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:32:15] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[16:32:15] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
-[16:32:15] [Client thread/INFO]: Replaced 141 ore recipies
-[16:32:15] [Client thread/INFO]: Completed early MinecraftForge initialization
-[16:32:15] [Client thread/INFO]: Searching /Users/teen/Desktop/NoahMatheu_Modding/eclipse/mods for mods
-[16:32:15] [Client thread/WARN]: Mod forgetutorial is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
-[16:32:15] [Client thread/INFO]: Mod DMA Example is missing the required element 'name'. Substituting DMA Example
-[16:32:16] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[16:32:17] [Client thread/INFO]: Forge Mod Loader has identified 6 mods to load
-[16:32:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Tutorials, FMLFileResourcePack:NoahsMod, FMLFileResourcePack:DMA Example
-[16:32:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:32:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:32:18] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:32:18] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[16:32:19] [Sound Library Loader/INFO]: Sound engine started
-[16:32:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:32:19] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_snowsprayer.png
+[09:58:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:58:49] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:58:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:58:49] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
+[09:58:49] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+[09:58:49] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[09:58:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:58:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:58:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:58:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:58:49] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:58:49] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[09:58:50] [main/ERROR]: The minecraft jar file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[09:58:50] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[09:58:50] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[09:58:50] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[09:58:50] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:58:50] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:58:50] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[09:58:51] [main/INFO]: Setting user: Player688
+[09:58:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:58:52] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[09:58:52] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
+[09:58:52] [Client thread/INFO]: Replaced 141 ore recipies
+[09:58:52] [Client thread/INFO]: Completed early MinecraftForge initialization
+[09:58:52] [Client thread/INFO]: Searching /Users/teen/Desktop/NoahMatheu_Modding/eclipse/mods for mods
+[09:58:52] [Client thread/WARN]: Mod forgetutorial is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[09:58:52] [Client thread/INFO]: Mod DMA Example is missing the required element 'name'. Substituting DMA Example
+[09:58:53] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[09:58:54] [Client thread/INFO]: Forge Mod Loader has identified 6 mods to load
+[09:58:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Tutorials, FMLFileResourcePack:NoahsMod, FMLFileResourcePack:DMA Example
+[09:58:55] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:58:55] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:58:55] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:58:55] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[09:58:56] [Sound Library Loader/INFO]: Sound engine started
+[09:58:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:58:56] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_snowsprayer.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_snowsprayer.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -53,31 +53,13 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_s
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[16:32:19] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4105_snowgrenade.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4105_snowgrenade.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:582) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:892) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[?:1.6.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[?:1.6.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[16:32:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:32:19] [Client thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
-[16:32:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Tutorials, FMLFileResourcePack:NoahsMod, FMLFileResourcePack:DMA Example
-[16:32:19] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:32:19] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:32:19] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[16:32:19] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_snowsprayer.png
+[09:58:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:58:56] [Client thread/INFO]: Forge Mod Loader has successfully loaded 6 mods
+[09:58:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Forge Tutorials, FMLFileResourcePack:NoahsMod, FMLFileResourcePack:DMA Example
+[09:58:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:58:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:58:56] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:58:56] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4096_snowsprayer.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_snowsprayer.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -98,60 +80,38 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4096_s
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[16:32:19] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4105_snowgrenade.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4105_snowgrenade.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:626) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:282) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:585) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:892) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:112) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.6.0_65]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[?:1.6.0_65]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[?:1.6.0_65]
-	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[16:32:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[16:32:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[16:32:20] [Sound Library Loader/INFO]: Sound engine started
-[16:32:21] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[16:32:27] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[16:32:27] [Server thread/INFO]: Generating keypair
-[16:32:27] [Server thread/INFO]: Found item id mismatch DMA Example:BaseTest : 4106 4105
-[16:32:27] [Server thread/INFO]: Found item id mismatch NoahsMod:Snow Grenade : 4105 4106
-[16:32:27] [Server thread/INFO]: Injecting new block and item data into this server instance
-[16:32:27] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@3a0f6e9d)
-[16:32:27] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@3a0f6e9d)
-[16:32:27] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@3a0f6e9d)
-[16:32:27] [Server thread/INFO]: Preparing start region for level 0
-[16:32:29] [Netty Client IO #0/INFO]: Server protocol version 1
-[16:32:29] [Netty IO #1/INFO]: Client protocol version 1
-[16:32:29] [Netty IO #1/INFO]: Client attempting to join with 6 mods : forgetutorial@1.0,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049,NoahsMod@1.1.1,DMA Example@1.0
-[16:32:29] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[16:32:29] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[16:32:29] [Client thread/INFO]: [Client thread] Client side modded connection established
-[16:32:29] [Server thread/INFO]: [Server thread] Server side modded connection established
-[16:32:29] [Server thread/INFO]: Player805[local:E:831b25f9] logged in with entity id 764 at (279.4914040596217, 88.76937794591102, 238.97367708969875)
-[16:32:29] [Server thread/INFO]: Player805 joined the game
-[16:32:47] [Server thread/INFO]: Saving and pausing game...
-[16:32:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:32:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:32:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:32:47] [Server thread/INFO]: Stopping server
-[16:32:47] [Server thread/INFO]: Saving players
-[16:32:47] [Server thread/INFO]: Saving worlds
-[16:32:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:32:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:32:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:32:48] [Server thread/INFO]: Unloading dimension 0
-[16:32:48] [Server thread/INFO]: Unloading dimension -1
-[16:32:48] [Server thread/INFO]: Unloading dimension 1
-[16:32:49] [Client thread/INFO]: Stopping!
+[09:58:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:58:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:58:57] [Sound Library Loader/INFO]: Sound engine started
+[09:58:58] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[09:59:03] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[09:59:03] [Server thread/INFO]: Generating keypair
+[09:59:03] [Server thread/INFO]: Injecting new block and item data into this server instance
+[09:59:03] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@615e54e8)
+[09:59:03] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@615e54e8)
+[09:59:03] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@615e54e8)
+[09:59:03] [Server thread/INFO]: Preparing start region for level 0
+[09:59:04] [Server thread/INFO]: Preparing spawn area: 85%
+[09:59:04] [Netty Client IO #0/INFO]: Server protocol version 1
+[09:59:04] [Netty IO #1/INFO]: Client protocol version 1
+[09:59:04] [Netty IO #1/INFO]: Client attempting to join with 6 mods : forgetutorial@1.0,mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049,NoahsMod@1.1.1,DMA Example@1.0
+[09:59:04] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[09:59:04] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[09:59:04] [Client thread/INFO]: [Client thread] Client side modded connection established
+[09:59:04] [Server thread/INFO]: [Server thread] Server side modded connection established
+[09:59:04] [Server thread/INFO]: Player688[local:E:90b6d9d6] logged in with entity id 487 at (22.5, 69.0, 194.5)
+[09:59:04] [Server thread/INFO]: Player688 joined the game
+[09:59:40] [Server thread/INFO]: Saving and pausing game...
+[09:59:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:59:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:59:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:59:42] [Server thread/INFO]: Stopping server
+[09:59:42] [Server thread/INFO]: Saving players
+[09:59:42] [Server thread/INFO]: Saving worlds
+[09:59:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:59:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:59:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:59:42] [Server thread/INFO]: Unloading dimension 0
+[09:59:42] [Server thread/INFO]: Unloading dimension -1
+[09:59:42] [Server thread/INFO]: Unloading dimension 1
+[09:59:44] [Client thread/INFO]: Stopping!

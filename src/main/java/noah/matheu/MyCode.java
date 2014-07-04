@@ -57,11 +57,12 @@ public class MyCode {
 			public static Item rubyGem;
 			public static Item Rock = new ItemFood(1000, 5, true);
 			public static Item iceblade;
+			public static Item snowgrenade;
 			//tools
 			public static Item IceSword;
 			public static Item.ToolMaterial ICE = EnumHelper.addToolMaterial("ICE", 2,1000,5.5F,1.5F,12);
 			
-			public static ArmorMaterial iceArmorMaterial = EnumHelper.addArmorMaterial("iceArmorMaterial",15, new int[]{3, 7, 5, 3}, 12);
+			public static ArmorMaterial iceArmorMaterial = EnumHelper.addArmorMaterial("iceArmorMaterial",15, new int[]{2, 7, 5, 2}, 12);
 			public static int iceHelmetID;
 			public static int iceChestpieceID;
 			public static int icePantsID;
@@ -167,6 +168,48 @@ public class MyCode {
 			"AA ",
 			'A', Blocks.ice,
 		});
+		GameRegistry.addRecipe(new ItemStack(IceSword, 1), new Object[]{
+			" A ",
+			" B ",
+			"   ",
+			'A', iceblade, 'B', Items.stick
+		});
+		GameRegistry.addRecipe(new ItemStack(iceHelmet, 1), new Object[]{
+			"AAA",
+			"A A ",
+			"   ",
+			'A', Blocks.ice,
+		});
+		GameRegistry.addRecipe(new ItemStack(iceChestpiece, 1), new Object[]{
+			"A A",
+			"AAA",
+			"AAA",
+			'A', Blocks.ice,
+		});
+		GameRegistry.addRecipe(new ItemStack(icePants, 1), new Object[]{
+			"AAA",
+			"A A",
+			"A A",
+			'A', Blocks.ice,
+		});
+		GameRegistry.addRecipe(new ItemStack(iceShoes, 1), new Object[]{
+			"   ",
+			"A A",
+			"A A",
+			'A', Blocks.ice,
+		});
+		GameRegistry.addRecipe(new ItemStack(Rock, 8), new Object[]{
+			"AAA",
+			"ABA",
+			"AAA",
+			'A', Blocks.ice, 'B', Items.cooked_beef,
+		});
+		GameRegistry.addRecipe(new ItemStack(snowgrenade, 1), new Object[]{
+			"AAA",
+			"ABA",
+			"AAA",
+			'A', Blocks.ice, 'B', Blocks.tnt,
+		});
 		
 		GameRegistry.addSmelting(Blocks.ice, new ItemStack(Blocks.water, 1), 3F);
 		
@@ -202,8 +245,8 @@ public class MyCode {
 		GameRegistry.registerItem(icePants,"IcePants");
 		GameRegistry.registerItem(iceShoes,"IceShoes");
 		
-		   Item snowgrenade = new SnowGrenade();
-		   GameRegistry.registerItem(snowgrenade, "Snow Grenade");
+		   snowgrenade = new SnowGrenade();
+		   GameRegistry.registerItem(snowgrenade, "snowgrenade");
 		
 	
 

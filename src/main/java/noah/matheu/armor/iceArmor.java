@@ -47,7 +47,7 @@ public class iceArmor extends ItemArmor {
 		if (player.getCurrentArmor(2) != null) {
 			ItemStack chestplate = player.getCurrentArmor(2);
 			if (chestplate.getItem() == MyCode.iceChestpiece)
-				player.addPotionEffect(new PotionEffect(Potion.fireResistance.getId(), 500));
+				player.addPotionEffect(new PotionEffect(Potion.fireResistance.getId(), 20));
 }}}
 
 
