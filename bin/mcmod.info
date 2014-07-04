@@ -1,13 +1,13 @@
 [
 {
-  "modid": "DMAExample",
-  "name": "DMA Example Mod",
-  "description": "DMA Example placeholder mod.",
+  "modid": "NoahsMod",
+  "name": "Noahs Mod",
+  "description": "An awesome mod made by Noah.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authors": ["DMA Modding Example GUY"],
+  "authors": ["Noah Matheu"],
   "credits": "Created by ME",
   "logoFile": "",
   "screenshots": [],

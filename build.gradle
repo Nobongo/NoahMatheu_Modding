@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.0"
-group= "tutorial.DMAExample" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "YourModsName"
+group= "noah.matheu" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "NoahsMod"
 
 minecraft {
     version = "1.7.2-10.12.0.1049"

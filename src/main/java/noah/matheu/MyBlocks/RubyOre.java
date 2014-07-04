@@ -1,6 +1,6 @@
 package noah.matheu.MyBlocks;
 
-import tutorial.DMAexample.MyCode;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;

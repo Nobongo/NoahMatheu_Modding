@@ -14,8 +14,6 @@ import net.minecraft.entity.projectile.EntitySnowball;
 
 import java.util.List;
 
-import tutorial.DMAexample.YourModsName;
-
 
 
 public class MyLauncherItem extends Item 
